@@ -19,6 +19,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   cl.addEventListener("click", (e) => {
     cl.innerText += "Hello World";
     sendData();
-    window.location.href = "/home";
+    // window.location.href = "/home";
   });
 });
